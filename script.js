@@ -1,13 +1,13 @@
-// A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99. //
-//Find the largest palindrome made from the product of two 3-digit numbers. //
+// A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99. 
+//Find the largest palindrome made from the product of two 3-digit numbers. 
 /*  first: i will create a function that will check if a number is palindrome */
 function isPalindrome(x){
     x = x.toString().split('');
-// (1) convert the number to an array of characters //
+// (1) convert the number to an array of characters 
     var len = x.lenght;
-// (2) get the lenght of the array;//
+// (2) get the lenght of the array;
     for(var i=0; i<len/2;i++){
-// (3) loop through half the elements from the array//
+// (3) loop through half the elements from the array
        if(x[i] !== x[len-1-i]){
  //(4)if the i-th element is not equal to the len-1-i-th element it means that the number is not palindrome,so return false.Else the loop continues till it terminates.then return true
         return false;
