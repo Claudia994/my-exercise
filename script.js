@@ -16,5 +16,6 @@ function largestPalindrome(){
 function isPalindrome(i){
     return i.toString() == i.toString().split("").reverse().join("");
 }
+// print the result of the largestPalindrome product//
 
 console.log(largestPalindrome());
