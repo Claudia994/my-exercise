@@ -12,6 +12,7 @@ function largestPalindrome(){
 
     return Math.max.apply(Math, arr);
 }
+// here the function is palindrome //
 
 function isPalindrome(i){
     return i.toString() == i.toString().split("").reverse().join("");
